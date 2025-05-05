@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "dc58f58f-4310-4e89-8df6-df35de0ba5fc")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 49.53 127)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3e313160-222b-4831-aea6-83cb910f1c4a")
+		(property "Sheetname" "03 CONNECTIVITY B"
+			(at 49.53 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sch/03_connectivity_b.kicad_sch"
+			(at 49.53 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB_BUG001-ESP32S3-M.2"
+				(path "/dc58f58f-4310-4e89-8df6-df35de0ba5fc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 110.49)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49caa30b-b51d-43ee-bedd-a4a4dfd07ca0")
+		(property "Sheetname" "02 CONNECTIVITY A"
+			(at 50.8 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sch/02_connectivity.kicad_sch"
+			(at 50.8 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB_BUG001-ESP32S3-M.2"
+				(path "/dc58f58f-4310-4e89-8df6-df35de0ba5fc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 96.52)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5bc02f68-3398-4849-b1e4-280791270fc0")
+		(property "Sheetname" "01 CONTROLLER"
+			(at 36.83 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sch/01_controller.kicad_sch"
+			(at 36.83 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB_BUG001-ESP32S3-M.2"
+				(path "/dc58f58f-4310-4e89-8df6-df35de0ba5fc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 143.51)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "615cdd1f-82e4-4d31-a87d-05721a4067fe")
+		(property "Sheetname" "05 SENSORS"
+			(at 63.5 142.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sch/05_sensors.kicad_sch"
+			(at 63.5 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB_BUG001-ESP32S3-M.2"
+				(path "/dc58f58f-4310-4e89-8df6-df35de0ba5fc"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
